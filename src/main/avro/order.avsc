@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "userId",
+      "type": "string"
+    }
+  ],
+  "name": "Order",
+  "namespace": "com.chukhnov.example.kafka",
+  "type": "record"
+}

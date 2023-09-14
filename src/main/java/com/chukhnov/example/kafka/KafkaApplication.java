@@ -10,7 +10,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
 @EnableScheduling
 @EnableKafka
-@EnableKafkaStreams
+//@EnableKafkaStreams
 public class KafkaApplication {
 
 public static void main(String[] args) {

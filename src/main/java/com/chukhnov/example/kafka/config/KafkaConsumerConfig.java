@@ -24,7 +24,7 @@ public class KafkaConsumerConfig {
         factory.setConsumerFactory(consumerFactory);
         return factory;
     }
-//
+
 //    @Bean
 //    public ConsumerFactory<String, Matryoshka> consumerFactory2(KafkaProperties properties) {
 //        return new DefaultKafkaConsumerFactory<>(properties.buildConsumerProperties());

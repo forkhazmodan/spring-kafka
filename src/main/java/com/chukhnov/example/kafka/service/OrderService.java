@@ -5,8 +5,15 @@ import com.chukhnov.example.kafka.Order;
 
 public class OrderService implements IOrderService {
 
+    private final IOrderPublisherService publisher;
+
+    public OrderService(IOrderPublisherService publisher) {
+        this.publisher = publisher;
+    }
+
     @Override
     public void createOrder(Order order) {
-        System.out.println(order);
+        //do stuff
+        publisher.publish(order);
     }
 }
